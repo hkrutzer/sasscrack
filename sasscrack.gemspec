@@ -19,5 +19,6 @@ Gem::Specification.new do |s|
   s.files = `git ls-files`.split("\n")
   s.require_paths = ['lib']
 
+  s.add_development_dependency 'rake', ['>= 0']
   s.add_development_dependency 'rubocop', ['>= 0']
 end

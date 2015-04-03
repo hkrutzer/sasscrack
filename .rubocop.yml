@@ -3,6 +3,7 @@ AllCops:
     - '**/Rakefile'
   Exclude:
     - '.gems/**/*'
+    - 'vendor/**/*'
 
 StringLiterals:
   EnforcedStyle: double_quotes
