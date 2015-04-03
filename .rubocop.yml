@@ -1,0 +1,15 @@
+AllCops:
+  Include:
+    - '**/Rakefile'
+  Exclude:
+    - '.gems/**/*'
+
+StringLiterals:
+  EnforcedStyle: double_quotes
+  Enabled: true
+
+Metrics/MethodLength:
+  Max: 15
+
+TrailingComma:
+  EnforcedStyleForMultiline: comma
