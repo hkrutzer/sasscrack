@@ -35,7 +35,7 @@ class SasscRack
 
       if File.exist? scssfile
         if @options[:write_file]
-          compile_write(scssfile, writepath)
+          compile_write(env, scssfile, writepath)
         else
           compile_serve(env, scssfile)
         end

@@ -4,7 +4,7 @@ Gem::Specification.new do |s|
   s.authors = ['Hans Krutzer']
   s.email = ['git@pixelspaceships.com']
   s.name = 'sasscrack'
-  s.version = '0.0.0'
+  s.version = '0.0.2'
   s.homepage = 'https://github.com/hkrutzer/sasscrack'
 
   s.summary = 'Rack plugin for libsass'
